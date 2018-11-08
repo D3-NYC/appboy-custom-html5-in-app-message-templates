@@ -1,0 +1,516 @@
+@import url("https://use.typekit.net/bxw6hcg.css");
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #222222;
+    text-align: center;
+    margin: 0px;
+}
+
+body .legal {
+    color: #000000;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 40px 0 40px;
+}
+
+body .legal a {
+    font-size: 10px;
+    text-transform: none;
+    text-decoration: underline;
+    display: inline;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+footer {
+    background-color: #ffffff;
+    border-radius: 0px 0px 0px 0px;
+    /*position: absolute;*/
+    font-family: Avenir-Black, sans-serif;
+    font-size: 15px;
+    /* letter-spacing: 0.02em; */
+    width: 100%;
+    /*height: 24%;*/
+    padding: 0px 35px 12px 35px;
+    margin-top: -10px;
+}
+
+input {
+    font-style: italic;
+}
+
+.outer {
+    /* To change the background color of the modal, change the rgba configuration.  The last parameter (0.8) configures the opacity. */
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.modal {
+    border-radius: 10px;
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.top-container {
+    /* Change the background-image url to a image of your choice */
+    /* background-image: url('TLC_Sweepstakes_500x500_Modal_Image_NoCTA.png'); */
+    background-image: url('11-8-updated-TLC_Sweepstakes_500x500_Modal_Image_01.png');
+    background-size: cover;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    height: 50%;
+    padding: 22px;
+    background-position: 50% 50%;
+}
+
+.button-close {
+    position: absolute;
+    z-index: 99;
+    right: 12px;
+    top: 12px;
+}
+
+.header {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 10px 0 10px 0;
+    letter-spacing: -0.02em;
+}
+
+.message {
+    font-family: Avenir-Book, sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.bottom-container {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    padding: 0px 22px 22px 22px;
+}
+
+.button-center {
+    background-color: #df1928;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.button-center a {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.button-center p {
+    position: relative;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.ab-email-capture-input {
+    background: #e8e8e8;
+}
+
+body .legal {
+    color: #000000;
+    font-size: 10px;
+}
+
+body .legal a {
+    font-size: 10px;
+    text-transform: none;
+    text-decoration: underline;
+    display: inline;
+}
+
+.ab-email-capture .ab-in-app-message .ab-email-capture-input, .ab-message-button {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+}
+
+.ab-message-button {
+    background-color: #df1928;
+    height: 50px;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* iPhone 5/SE */
+@media only screen and (device-width : 320px) and (device-height : 568px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 6px;
+        padding: 5px 12px 0 12px;
+        margin: 0 5px 0 5px;
+
+    }
+
+    body .legal a {
+        font-size: 6px;
+        /* padding: 0px 12px 0 12px; */
+        margin: 0;
+
+    }
+
+    .header {
+        font-size:16px;
+    }
+
+    footer {
+        /*height: 39%;*/
+    }
+}
+
+/*  iPhone 6/7/8 */
+@media only screen and (device-width : 375px) and (device-height : 667px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 7px;
+        padding: 5px 20px 0 20px;
+    }
+    body .legal a {
+        font-size: 7px;
+    }
+
+    .header {
+        font-size:18px;
+    }
+
+    footer {
+        /*height: 35%;*/
+    }
+}
+
+/* iPhone X */
+@media only screen and (device-width : 375px) and (device-height : 812px)and (-webkit-device-pixel-ratio : 3) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 8px;
+        padding: 5px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 8px;
+    }
+
+    .header {
+        font-size:20px;
+    }
+
+    footer {
+        /*height: 30%;*/
+    }
+}
+
+/* iPhone 6/7/8 plus */
+@media only screen and (device-width : 414px) and (device-height : 736px) {
+    /* .top-container {
+        width: 100%;
+        height: 40%;
+    }
+    /*  */
+
+    body .legal {
+        font-size: 8px;
+        padding: 5px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 8px;
+    }
+
+    .header {
+        font-size:20px;
+    }
+
+
+    footer {
+       /* height: 33%;*/
+    }
+}
+
+/* iPhone 4*/
+@media only screen and (device-width : 320px) and (device-height : 480px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 6px;
+        padding: 3px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 6px;
+        /* padding: 0 20px 0 20px; */
+    }
+
+    .header {
+        font-size:16px;
+    }
+
+    footer {
+        /*height: 42%;*/
+    }
+
+    .ab-message-button {
+        height: 40px;
+    }
+
+    .ab-message-button span {
+        font-size: 14px;
+    }
+}
+
+/* iPad Mini */
+@media only screen and (device-width : 768px) and (device-height : 1024px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 11px;
+        margin: 0 55px 0 55px;
+        padding: 3px 60px 0 60px;
+    }
+
+    body .legal a {
+        font-size: 11px;
+    }
+
+    .header {
+        font-size:36px;
+    }
+
+    footer {
+        /*height: 33%;*/
+    }
+
+    .ab-message-button {
+        height: 60px;
+        width: 85%;
+    }
+
+    .ab-message-button span {
+        font-size: 16px;
+    }
+}
+
+/* iPad Pro */
+@media only screen and (device-width : 1024px) and (device-height : 1366px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 14px;
+        margin: 0 20% 0 20%;
+        padding: 3px 60px 0 60px;
+    }
+
+    body .legal a {
+        font-size: 14px;
+    }
+
+    .header {
+        font-size:36px;
+    }
+
+    footer {
+        /*height: 25%;*/
+    }
+
+    .ab-message-button {
+        height: 60px;
+        width: 65%;
+    }
+
+    .ab-message-button span {
+        font-size: 16px;
+    }
+}
+
+/* Pixel 2 */
+@media only screen and (device-width : 411px) and (device-height : 731px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 8px;
+        padding: 5px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 8px;
+    }
+
+    .header {
+        font-size:20px;
+    }
+
+    footer {
+        /*height: 33%;*/
+    }
+}
+
+/* Galaxy S5 */
+@media only screen and (device-width : 360px) and (device-height : 640px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 7px;
+        padding: 5px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 7px;
+    }
+
+    .header {
+        font-size:18px;
+    }
+
+    footer {
+        /*height: 37%;*/
+    }
+}
+
+/* Pixel 2 XL */
+@media only screen and (device-width : 411px) and (device-height : 823px) {
+    .top-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    body .legal {
+        font-size: 8px;
+        padding: 5px 20px 0 20px;
+    }
+
+    body .legal a {
+        font-size: 8px;
+    }
+
+    .header {
+        font-size:20px;
+    }
+
+    footer {
+        /*height: 30%;*/
+    }
+}
+
+
+/* iPads */
+/* Does this work? */
+@media only screen and (device-width : 768px) and (device-width : 1024px)  {
+    .top-container {
+        width: 100%;
+        height: 48%;
+    }
+
+    body .legal {
+        font-size: 12px;
+        margin: 2px 65px 0 65px;
+        padding: 0 65px 10px 65px;
+    }
+
+    body .legal a {
+        font-size: 12px;
+    }
+
+    footer {
+        /*height: 26%;*/
+    }
+
+    .ab-message-button {
+        width: 65%;
+    }
+
+
+    .ab-message-button span {
+        font-size: 18px;
+    }
+}
+
+/* Landscape */
+@media only screen and (orientation: landscape) {
+
+    .bottom-container {
+        height: 41%;
+    }
+
+    .header {
+        margin: 7px;
+    }
+
+    .modal {
+        width: 40%;
+        height: 100%;
+    }
+}
