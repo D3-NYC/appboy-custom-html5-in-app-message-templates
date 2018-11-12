@@ -21,7 +21,6 @@ body .legal {
     font-family: azo-sans-web, sans-serif;
     font-weight: 600;
     font-style: normal;
-    padding: 0 40px 0 40px;
 }
 
 body .legal a {
@@ -42,12 +41,9 @@ a {
 footer {
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
-    /*position: absolute;*/
     font-family: Avenir-Black, sans-serif;
     font-size: 15px;
-    /* letter-spacing: 0.02em; */
     width: 100%;
-    /*height: 24%;*/
     padding: 0px 35px 12px 35px;
     margin-top: -10px;
 }
@@ -80,12 +76,11 @@ input {
 
 .top-container {
     /* Change the background-image url to a image of your choice */
-    /* background-image: url('TLC_Sweepstakes_500x500_Modal_Image_NoCTA.png'); */
     background-image: url('11-8-updated-TLC_Sweepstakes_500x500_Modal_Image_01.png');
     background-size: cover;
     border-radius: 0px 0px 0px 0px;
     width: 100%;
-    height: 50%;
+    height: 43%;
     padding: 22px;
     background-position: 50% 50%;
 }
@@ -103,6 +98,8 @@ input {
     font-style: normal;
     margin: 10px 0 10px 0;
     letter-spacing: -0.02em;
+    padding: 10px 0 5px 0;
+    line-height: 1.6;
 }
 
 .message {
@@ -180,337 +177,205 @@ body .legal a {
     font-style: normal;
 }
 
-/* iPhone 5/SE */
-@media only screen and (device-width : 320px) and (device-height : 568px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
 
-    body .legal {
-        font-size: 6px;
-        padding: 5px 12px 0 12px;
-        margin: 0 5px 0 5px;
 
-    }
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 320px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
 
-    body .legal a {
-        font-size: 6px;
-        /* padding: 0px 12px 0 12px; */
-        margin: 0;
+  .header h2 {
+      font-size: 16px;
+  }
 
-    }
 
-    .header {
-        font-size:16px;
-    }
-
-    footer {
-        /*height: 39%;*/
-    }
 }
 
-/*  iPhone 6/7/8 */
-@media only screen and (device-width : 375px) and (device-height : 667px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 7px;
-        padding: 5px 20px 0 20px;
-    }
-    body .legal a {
-        font-size: 7px;
-    }
-
-    .header {
-        font-size:18px;
-    }
-
-    footer {
-        /*height: 35%;*/
-    }
-}
-
-/* iPhone X */
-@media only screen and (device-width : 375px) and (device-height : 812px)and (-webkit-device-pixel-ratio : 3) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 8px;
-        padding: 5px 20px 0 20px;
-    }
-
-    body .legal a {
-        font-size: 8px;
-    }
-
-    .header {
-        font-size:20px;
-    }
-
-    footer {
-        /*height: 30%;*/
-    }
-}
-
-/* iPhone 6/7/8 plus */
-@media only screen and (device-width : 414px) and (device-height : 736px) {
-    /* .top-container {
-        width: 100%;
-        height: 40%;
-    }
-    /*  */
-
-    body .legal {
-        font-size: 8px;
-        padding: 5px 20px 0 20px;
-    }
-
-    body .legal a {
-        font-size: 8px;
-    }
-
-    .header {
-        font-size:20px;
-    }
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 568px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
 
 
-    footer {
-       /* height: 33%;*/
-    }
-}
+  .header #break {
+    display: none;
+  }
 
-/* iPhone 4*/
-@media only screen and (device-width : 320px) and (device-height : 480px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
+  .header {
+      font-size: 18px;
+  }
 
-    body .legal {
-        font-size: 6px;
-        padding: 3px 20px 0 20px;
-    }
-
-    body .legal a {
-        font-size: 6px;
-        /* padding: 0 20px 0 20px; */
-    }
-
-    .header {
-        font-size:16px;
-    }
-
-    footer {
-        /*height: 42%;*/
-    }
-
-    .ab-message-button {
-        height: 40px;
-    }
-
-    .ab-message-button span {
-        font-size: 14px;
-    }
-}
-
-/* iPad Mini */
-@media only screen and (device-width : 768px) and (device-height : 1024px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 11px;
-        margin: 0 55px 0 55px;
-        padding: 3px 60px 0 60px;
-    }
-
-    body .legal a {
-        font-size: 11px;
-    }
-
-    .header {
-        font-size:36px;
-    }
-
-    footer {
-        /*height: 33%;*/
-    }
-
-    .ab-message-button {
-        height: 60px;
-        width: 85%;
-    }
-
-    .ab-message-button span {
-        font-size: 16px;
-    }
-}
-
-/* iPad Pro */
-@media only screen and (device-width : 1024px) and (device-height : 1366px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 14px;
-        margin: 0 20% 0 20%;
-        padding: 3px 60px 0 60px;
-    }
-
-    body .legal a {
-        font-size: 14px;
-    }
-
-    .header {
-        font-size:36px;
-    }
-
-    footer {
-        /*height: 25%;*/
-    }
-
-    .ab-message-button {
-        height: 60px;
-        width: 65%;
-    }
-
-    .ab-message-button span {
-        font-size: 16px;
-    }
+  body .legal a {
+      font-size: 8px;
+  }
 }
 
 /* Pixel 2 */
-@media only screen and (device-width : 411px) and (device-height : 731px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
+@media only screen and (min-device-width: 410px) and (max-device-width: 414px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+  .header #break {
+    display: none;
+  }
+
+  .header {
+      font-size: 23px;
+  }
+
+  body .legal {
+      font-size: 8px;
+      padding: 0 30px 0 30px;
+  }
+
+  body .legal a {
+      font-size: 8px;
+  }
+}
+/* iPhone 6,7,8 */
+@media only screen and (device-width: 414px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+  .header #break {
+    display: none;
+  }
+
+  .header {
+      font-size: 23px;
+  }
+
+  body .legal a {
+      font-size: 8px;
+  }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 330px) {
+ header #break {
+    display: none;
+  }
+
+   body .legal {
+      font-size: 6px;
+      margin: 0 5px 0 5px;
+   }
+
+  body .legal a {
+      font-size: 6px;
+  }
+}
+
+@media only screen and (min-device-width: 330px) and (max-device-width: 360px) {
+ header #break {
+    display: none;
+  }
+
+   body .legal {
+      font-size: 6.5px;
+      margin: 0 12px 0 12px;
+   }
+
+  body .legal a {
+      font-size: 6.5px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 380px) {
+    .top-container: {
+        height: 43%
+    }
+    header #break {
+        display: none;
     }
 
     body .legal {
-        font-size: 8px;
-        padding: 5px 20px 0 20px;
+      font-size: 7px;
+      margin: 0 12px 0 12px;
     }
 
     body .legal a {
-        font-size: 8px;
-    }
-
-    .header {
-        font-size:20px;
-    }
-
-    footer {
-        /*height: 33%;*/
-    }
-}
-
-/* Galaxy S5 */
-@media only screen and (device-width : 360px) and (device-height : 640px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 7px;
-        padding: 5px 20px 0 20px;
-    }
-
-    body .legal a {
-        font-size: 7px;
-    }
-
-    .header {
-        font-size:18px;
-    }
-
-    footer {
-        /*height: 37%;*/
-    }
-}
-
-/* Pixel 2 XL */
-@media only screen and (device-width : 411px) and (device-height : 823px) {
-    .top-container {
-        width: 100%;
-        height: 40%;
-    }
-
-    body .legal {
-        font-size: 8px;
-        padding: 5px 20px 0 20px;
-    }
-
-    body .legal a {
-        font-size: 8px;
-    }
-
-    .header {
-        font-size:20px;
-    }
-
-    footer {
-        /*height: 30%;*/
+      font-size: 7px;
     }
 }
 
 
-/* iPads */
-/* Does this work? */
-@media only screen and (device-width : 768px) and (device-width : 1024px)  {
-    .top-container {
-        width: 100%;
-        height: 48%;
-    }
+@media only screen and (max-device-width: 768px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
 
-    body .legal {
-        font-size: 12px;
-        margin: 2px 65px 0 65px;
-        padding: 0 65px 10px 65px;
-    }
-
-    body .legal a {
-        font-size: 12px;
-    }
-
-    footer {
-        /*height: 26%;*/
-    }
-
-    .ab-message-button {
-        width: 65%;
-    }
-
-
-    .ab-message-button span {
-        font-size: 18px;
-    }
 }
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 768px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+
+  .legal {
+      background-color: #ffffff;
+      font-size: 8px;
+  }
+
+  body .legal {
+      font-size: 9px;
+      padding: 0 16px 0 16px;
+  }
+
+  body .legal a {
+      font-size: 8.5px;
+  }
+
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 1024px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+
+  .legal {
+      background-color: #ffffff;
+      font-size: 8px;
+  }
+
+  body .legal {
+      font-size: 10px;
+      padding: 0 40px 0 40px;
+  }
+
+  body .legal a {
+      font-size: 10px;
+  }
+
+}
+
 
 /* Landscape */
 @media only screen and (orientation: landscape) {
+  footer {
+    height: 53%;
+  }
 
-    .bottom-container {
-        height: 41%;
-    }
+  .bottom-container {
+    height: 41%;
+  }
 
-    .header {
-        margin: 7px;
-    }
-
-    .modal {
-        width: 40%;
-        height: 100%;
-    }
+  .header {
+    margin: 7px;
+  }
 }
