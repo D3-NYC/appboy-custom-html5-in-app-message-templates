@@ -1,0 +1,395 @@
+@import url("https://use.typekit.net/bxw6hcg.css");
+
+@font-face {
+    font-family: 'tlc-elaine';
+    src: url('Elaine3.0Web-Uppercase.ttf');
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #222222;
+    text-align: center;
+    margin: 0px;
+}
+
+body .legal {
+    color: #000000;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body .legal a {
+    font-size: 10px;
+    text-transform: none;
+    text-decoration: underline;
+    display: inline;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+footer {
+    background-color: #ffffff;
+    border-radius: 0px 0px 0px 0px;
+    font-family: Avenir-Black, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 0px 35px 12px 35px;
+    margin-top: -10px;
+}
+
+input {
+    font-style: italic;
+}
+
+.outer {
+    /* To change the background color of the modal, change the rgba configuration.  The last parameter (0.8) configures the opacity. */
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.modal {
+    border-radius: 10px;
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.top-container {
+    /* Change the background-image url to a image of your choice */
+    background-image: url('TLC_LongIslandMedium_Modal_Image_01.jpg');
+    background-size: cover;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    height: 43%;
+    padding: 22px;
+    background-position: 50% 50%;
+}
+
+.button-close {
+    position: absolute;
+    z-index: 99;
+    right: 12px;
+    top: 12px;
+}
+
+.header {
+    font-family: Azo Sans Medium, sans-serif;
+    font-weight: medium;
+    font-style: normal;
+    margin: 10px 0 10px 0;
+    letter-spacing: -0.02em;
+    padding: 10px 0 5px 0;
+    color: #26276e;
+    line-height: 1.2;
+}
+
+.header #free {
+    font-family: 'tlc-elaine';
+}
+
+.message {
+    font-family: Avenir-Book, sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.bottom-container {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    padding: 0px 22px 22px 22px;
+}
+
+.button-center {
+    background-color: #df1928;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.button-center a {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.button-center p {
+    position: relative;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.ab-email-capture-input {
+    background: #e8e8e8;
+}
+
+body .legal {
+    color: #000000;
+    font-size: 10px;
+}
+
+body .legal a {
+    font-size: 10px;
+    text-transform: none;
+    text-decoration: underline;
+    display: inline;
+}
+
+#btn-text {
+    color: #ffffff;
+}
+
+.ab-email-capture .ab-in-app-message .ab-email-capture-input, .ab-message-button {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+}
+
+.ab-message-button {
+    background-color: #df1928;
+    height: 50px;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 320px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header h2 {
+      font-size: 16px;
+  }
+
+
+}
+
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 568px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+  .header #break {
+    display: none;
+  }
+
+  .header {
+      font-size: 18px;
+  }
+
+  body .legal a {
+      font-size: 8px;
+  }
+}
+
+/* Pixel 2 */
+@media only screen and (min-device-width: 410px) and (max-device-width: 414px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+  .header #break {
+    display: none;
+  }
+
+  .header {
+      font-size: 23px;
+  }
+
+  body .legal {
+      font-size: 8px;
+      padding: 0 30px 0 30px;
+  }
+
+  body .legal a {
+      font-size: 8px;
+  }
+}
+/* iPhone 6,7,8 */
+@media only screen and (device-width: 414px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+  .header #break {
+    display: none;
+  }
+
+  .header {
+      font-size: 23px;
+  }
+
+  body .legal a {
+      font-size: 8px;
+  }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 330px) {
+ header #break {
+    display: none;
+  }
+
+   body .legal {
+      font-size: 6px;
+      margin: 0 5px 0 5px;
+   }
+
+  body .legal a {
+      font-size: 6px;
+  }
+}
+
+@media only screen and (min-device-width: 330px) and (max-device-width: 360px) {
+ header #break {
+    display: none;
+  }
+
+   body .legal {
+      font-size: 6.5px;
+      margin: 0 12px 0 12px;
+   }
+
+  body .legal a {
+      font-size: 6.5px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 380px) {
+    .top-container: {
+        height: 43%
+    }
+    header #break {
+        display: none;
+    }
+
+    body .legal {
+      font-size: 7px;
+      margin: 0 12px 0 12px;
+    }
+
+    body .legal a {
+      font-size: 7px;
+    }
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 768px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+
+  .legal {
+      background-color: #ffffff;
+      font-size: 8px;
+  }
+
+  body .legal {
+      font-size: 9px;
+      padding: 0 16px 0 16px;
+  }
+
+  body .legal a {
+      font-size: 8.5px;
+  }
+
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 1024px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+
+  .legal {
+      background-color: #ffffff;
+      font-size: 8px;
+  }
+
+  body .legal {
+      font-size: 10px;
+      padding: 0 40px 0 40px;
+  }
+
+  body .legal a {
+      font-size: 10px;
+  }
+
+}
+
+
+/* Landscape */
+@media only screen and (orientation: landscape) {
+  footer {
+    /* height: 53%; */
+  }
+
+
+  .bottom-container {
+    height: 41%;
+  }
+
+  .header {
+    margin: 7px;
+  }
+}
